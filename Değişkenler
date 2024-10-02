@@ -1,0 +1,96 @@
+a = 5
+b = 12
+
+a = 7
+c = 5 + 9
+c
+
+d = a
+print(d)
+
+d = (a + b) * c
+print(d)
+
+e, f, g = 5, 7, 9
+print(e)
+print(f)
+print(g)
+
+h = 1,2,3,4,5,6,7,8,9,10
+print(h)
+
+merhaba = "Hello there!!!"
+print(merhaba)
+
+degisken = 5
+_degisken = 5
+benim_degiskenim = 5
+degisken1 = 5
+benim1degiskenim = 5
+
+benim degiskenim = 5
+1degisken = 5
+
+A = 65
+a = 97
+print(A, a)
+
+Park = "Kadıköy"
+park = "Üsküdar"
+print(Park, park)
+
+# **Veri Tipleri:**
+
+# Sayısal veri tipleri:
+
+# Tamsayılar (int/Integer):
+tamsayi1 = 0
+tamsayi2 = 154
+tamsayi3 = -546
+bos_tamsayi = int()
+ondaliktan_tam = int(14.9) 
+print(tamsayi1, tamsayi2, tamsayi3, bos_tamsayi, ondaliktan_tam)
+
+# Ondalıklar (float/Floating Point):
+ondalik1 = 0.0
+ondalik2 = 14.54
+ondalik3 = -8.14
+ondalik4 = .2 
+ondalik5 = 5. 
+bos_ondalik = float() 
+tamdan_ondalik = float(99) 
+print(ondalik1, ondalik2, ondalik3, ondalik4, ondalik5, bos_ondalik, tamdan_ondalik)
+
+# Metin Veri Tipleri:
+metin1 = "çağdaş çınar"
+metin2 = 'çağdaş çınar'
+metin3 = "çağdaş'ın yeri"
+
+print(metin1, metin2, metin3)
+
+uzun_metin1 = """
+merhaba bu çok uzun bir metin olacak
+bu da ikinci satırdır.
+"""
+uzun_metin2 = '''
+merhaba bu çok uzun bir metin olacak
+bu da ikinci satırdır.
+'''
+print(uzun_metin1, uzun_metin2)
+
+isim = "çağdaş çınar"
+meslek = "yazılım geliştirici"
+
+formatli_metin = f"{isim} adlı kişinin mesleği '{meslek}' olarak verilmiştir."
+print(formatli_metin)
+
+cevap = f"""
+Sayın {isim};
+Kurumumuzda bulunan {meslek} kadrosuna başvurunuz başarıyla alınmıştır.
+"""
+print(cevap)
+
+print(f"Toplama işlemi: {a} + {b} = {a + b}")
+
+a = 114
+print(f"₺{a}")
